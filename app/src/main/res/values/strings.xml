@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">表白板</string>
+
+    <string-array name="drawerlist">
+        <item>文本作品</item>
+        <item>手绘作品</item>
+        <item>我的收藏</item>
+        <item>个性设置</item>
+        <item>关于应用</item>
+        <item>退出应用</item>
+    </string-array>
+
+    <string-array name="settings">
+        <item>定时播放</item>
+        <item>字体大小</item>
+        <item>笔刷大小</item>
+        <item>笔刷颜色</item>
+        <item>背景颜色</item>
+        <item>背景音乐</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_search">Search</string>
+    <string name="activity_bgm">背景音乐</string>
+    <string name="activity_timing">定时播放</string>
+    <string name="activity_fontcolor">字体颜色</string>
+    <string name="activity_backgroundcolor">背景颜色</string>
+    <string name="activity_fontsize">字体大小</string>
+    <string name="activity_drawingboard">画板</string>
+    <string name="activity_paintsize">笔刷大小</string>
+</resources>

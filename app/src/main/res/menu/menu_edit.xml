@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/ic_add"
+        android:title="Option"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_show"
+        android:icon="@mipmap/ic_show"
+        android:title="Show"
+        app:showAsAction="ifRoom" />
+
+    <!--<item-->
+    <!--android:id="@+id/action_album"-->
+    <!--android:icon="@mipmap/ic_photo"-->
+    <!--android:title="@string/action_album"/>-->
+    <!--<item-->
+    <!--android:id="@+id/action_collection"-->
+    <!--android:icon="@mipmap/ic_collect"-->
+    <!--android:title="@string/action_collection"/>-->
+    <!--<item-->
+    <!--android:id="@+id/action_card"-->
+    <!--android:icon="@mipmap/ic_card"-->
+    <!--android:title="@string/action_card"/>-->
+    <!--<item-->
+    <!--android:id="@+id/action_settings"-->
+    <!--android:icon="@mipmap/ic_setting"-->
+    <!--android:title="@string/action_settings"/>-->
+    <!--<item-->
+    <!--android:id="@+id/action_feed"-->
+    <!--android:icon="@mipmap/ic_feedback"-->
+    <!--android:title="@string/action_feed"/>-->
+</menu>

@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context="com.lxchild.expressboard.drawingboard.DrawingBoardActivity">
+
+    <com.lxchild.expressboard.drawingboard.DrawingBoard
+        android:id="@+id/board_drawing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

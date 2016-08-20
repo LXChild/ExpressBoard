@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lxchild.expressboard.main">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.lxchild.expressboard.main.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lxchild.expressboard.show_text_board.TextShowActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.lxchild.expressboard.bgm.BGMActivity"
+            android:label="@string/activity_bgm" />
+        <activity
+            android:name="com.lxchild.expressboard.timing.TimingActivity"
+            android:label="@string/activity_timing" />
+        <activity
+            android:name="com.lxchild.expressboard.fontsize.FontSizeActivity"
+            android:label="@string/activity_fontsize" />
+        <activity
+            android:name="com.lxchild.expressboard.fontcolor.FontColorActivity"
+            android:label="@string/activity_fontcolor" />
+        <activity
+            android:name="com.lxchild.expressboard.bgc.BackgroundColorActivity"
+            android:label="@string/activity_backgroundcolor" />
+        <activity
+            android:name="com.lxchild.expressboard.drawingboard.DrawingBoardActivity"
+            android:label="@string/activity_drawingboard"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name="com.lxchild.expressboard.show_draw_board.DrawShowActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.lxchild.expressboard.paintsize.PaintSizeActivity"
+            android:label="@string/activity_paintsize"/>
+    </application>
+
+</manifest>
